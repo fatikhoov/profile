@@ -28,7 +28,7 @@ function NavHeader({ shrink }) {
         <header className={`nav-header ${shrink ? "nav-header-shrink" : ""}`}>
             <ImageView src={pfpUrl}
                        className={`img-view-avatar`}
-                       alt={name}/>
+                       alt={`Владислав Фатихов, веб-разработчик`}/>
 
             {statusVisible && (
                 <StatusBadge available={statusAvailable}

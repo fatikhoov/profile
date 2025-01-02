@@ -8,7 +8,7 @@ import {FeedbacksProvider} from "/src/providers/FeedbacksProvider"
 import {WindowProvider} from "/src/providers/WindowProvider"
 import App from "/src/components/App.jsx"
 import Preloader from "/src/components/Preloader.jsx"
-
+ 
 const AppProviders = ({ children }) => (
     <DataProvider>
         <LanguageProvider>
