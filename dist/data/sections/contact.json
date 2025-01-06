@@ -1,6 +1,6 @@
 {
     "locales": {
-        "en": {
+        "ru": {
             "title": "Contact",
             "title_long_prefix": "Don't hesitate to",
             "title_long": "**Contact** Me"
@@ -8,7 +8,7 @@
 
         "es": {
             "title": "Contacto",
-            "title_long_prefix": "No dudes en",
+            "title_long_prefix": "No dudes ru",
             "title_long": "**Contácta**me"
         },
 
@@ -31,7 +31,7 @@
             "component": "ArticleContactForm",
             "config": {},
             "locales": {
-                "en": {"title": "Send me a **message**"},
+                "ru": {"title": "Send me a **message**"},
                 "es": {"title": "Envíame un **mensaje**"},
                 "fr": {"title": "Envoyez-moi un **message**"},
                 "ko": {"title": "**메시지를** 보내주세요"}
@@ -47,7 +47,7 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Or if you **prefer**..."},
+                "ru": {"title": "Or if you **prefer**..."},
                 "es": {"title": "O si **prefieres**..."},
                 "fr": {"title": "Ou si vous **préférez**..."},
                 "ko": {"title": "또는 **원하시면**..."}
@@ -65,7 +65,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Phone"},
+                        "ru": {"title": "Phone"},
                         "es": {"title": "Teléfono"},
                         "fr": {"title": "Téléphone"},
                         "ko": {"title": "전화"}
@@ -83,7 +83,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "E-mail"},
+                        "ru": {"title": "E-mail"},
                         "ko": {"title": "이메일"}
                     }
                 },
@@ -99,7 +99,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Linkedin"}
+                        "ru": {"title": "Linkedin"}
                     }
                 },
 
@@ -114,7 +114,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Facebook"}
+                        "ru": {"title": "Facebook"}
                     }
                 },
 
@@ -129,7 +129,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Instagram"}
+                        "ru": {"title": "Instagram"}
                     }
                 },
 
@@ -144,7 +144,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "TikTok"}
+                        "ru": {"title": "TikTok"}
                     }
                 }
             ]

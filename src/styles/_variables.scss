@@ -1,6 +1,6 @@
 /** ----------- FONTS ------------ **/
-$font-family-base: 'Lato', sans-serif;
-$headings-font-family: 'Orbitron', sans-serif;
+$font-family-base: 'Roboto', sans-serif;
+$headings-font-family: 'Montserrat', sans-serif;
 $custom-subheadings-font-family: 'Oxygen', sans-serif;
 
 /** --------- Z-INDEXES ---------- **/
@@ -27,13 +27,13 @@ $sidebar-min-breakpoint: md;
 /** ----------- COLORS ----------- **/
 
 /** COLORS - overriding bootstrap colors **/
-$primary: #36ec65;
+$primary: #32ADE6;
 $secondary: #6c757d;
-$dark: #111;
+$dark: #222;
 $light: #EEE;
 
 /** COLORS - static **/
-$loader-background-color: #111111;
+$loader-background-color: #222;
 
 :root {
     --mobile-layout-breakpoint: md;
@@ -41,92 +41,93 @@ $loader-background-color: #111111;
 
 /** COLORS - dark theme palette **/
 :root {
-    --theme-main: #111111;
-    --theme-main-2: #1A1A1A;
-    --theme-main-3: #1C1C1C;
-    --theme-main-4: #1f1f1f;
-
+    --theme-main: #222;
+    --theme-main-2: #282C34; /* Новое значение */
+    --theme-main-3: #343C48; /* Новое значение */
+    --theme-main-4: #414B5B; /* Новое значение */
+   
     --theme-secondary: #EEEEEE;
     --theme-secondary-2: #D1D1D1;
     --theme-secondary-3: #bbbbbb;
-    --theme-secondary-4: #9f9f9f;
-
+    --theme-secondary-4: #999;
+   
     --theme-soft: #212121;
     --theme-soft-2: #252525;
     --theme-soft-3: #292929;
-
-    --theme-highlight: #9dff8e;
-    --theme-highlight-2: #b5ffa9;
-    --theme-highlight-3: #d5fdcd;
-
+   
+    --theme-highlight: #32ADE6;
+    --theme-highlight-2: #ccc;
+    --theme-highlight-3: #999;
+   
     --theme-dark: #101010;
     --theme-dark-opacity: rgba(16, 16, 16, 0.2);
     --theme-muted: #6c757d;
     --theme-white: #EEE;
-
+   
     --theme-bg: url('/images/css/bg-dark.png');
     --theme-bg-color: #1C1C1C;
     --theme-section-background: #1A1A1A;
     --theme-section-background-opacity: rgba(26, 26, 26, 0.86);
     --theme-tag-color: #181818;
     --theme-box-shadow: none;
-
+   
     --theme-nav-background: #1A1A1A;
     --theme-nav-background-disabled: #181818;
     --theme-nav-secondary: #EEEEEE;
     --theme-nav-light: #1f2022;
-    --theme-nav-highlight: #9dff8e;
+    --theme-nav-highlight: #32ADE6;
     --theme-nav-selected: #232526;
-
+   
     --theme-scrollbar-track: #111111;
     --theme-scrollbar-thumb: #32343a;
-    --theme-chart-borders: #e7f6e3;
-
+    --theme-chart-borders: #ccc;
+   
     --theme-danger: #730808;
-}
+   }
+
 
 /** COLORS - light theme palette **/
 [data-theme="light"] {
-    --theme-main: #9adbaf;
-    --theme-main-2: #8ec9a1;
-    --theme-main-3: #82b791;
-    --theme-main-4: #7db08e;
-
-    --theme-secondary: #404b41;
+    --theme-main: #999;
+    --theme-main-2: #888;
+    --theme-main-3: #777;
+    --theme-main-4: #32ADE6;
+   
+    --theme-secondary: #222;  
     --theme-secondary-2: #49564a;
     --theme-secondary-3: #576758;
     --theme-secondary-4: #5e6c5e;
-
-    --theme-soft: #c3e3cb;
-    --theme-soft-2: #bfdec7;
-    --theme-soft-3: #bad9c2;
-
-    --theme-dark: #daf5e4;
-    --theme-dark-opacity: rgba(218, 245, 228, 0.2);
-    --theme-muted: #7c8d7f;
-    --theme-white: #ffffff;
-
-    --theme-highlight: #269366;
-    --theme-highlight-2: #207956;
-    --theme-highlight-3: #1a6447;
-
-    --theme-bg: url('/images/css/bg-green.png');
-    --theme-bg-color: #9adbaf;
-    --theme-section-background: #caecd5;
-    --theme-section-background-opacity: rgba(202, 236, 213, 0.9);
-    --theme-tag-color: #b1ccbd;
+   
+    --theme-soft: #ccc; /* бордер круга отзывы */
+    --theme-soft-2: #bbb; /* фон карточки отзывы */
+    --theme-soft-3: #ccc; /* бордер круга увлечения */
+   
+    --theme-dark: #ccc; /* фон шкалы прогресса и текст табов блок портфолио */
+    --theme-dark-opacity: rgba(51, 0, 255, 0.22); /* граница круга под фото онлайна */
+    --theme-muted: #999; /* текст и процент шкалы прогресса и текст на карточке увлечения */
+    --theme-white: #777; /* иконки формы обратной связи в полях импутов */
+   
+    --theme-highlight: #32ADE6;
+    --theme-highlight-2: #777; /* ссылки почта, гитхаб, бордет активного пункта меню */
+    --theme-highlight-3: #414141;
+   
+    --theme-bg: url('');
+    --theme-bg-color: #eee; /* фон темы */ 
+    --theme-section-background: #ddd; /* фон childrens */ 
+    --theme-section-background-opacity: #ddd; /* фон childrens в мобилке */
+    --theme-tag-color: #eee; /* цвет тегов в карточках */
     --theme-box-shadow: none;
 
-    --theme-nav-background: #caecd5;
-    --theme-nav-background-disabled: #c5e6d0;
-    --theme-nav-secondary: #4f5b50;
-    --theme-nav-light: rgba(217, 243, 222, 0.5);
-    --theme-nav-highlight: #d7f1e3;
-    --theme-nav-selected: #269366;
+    --theme-nav-background: #ddd; /* фон карточки визитки */ 
+    --theme-nav-background-disabled: #ddd; /* фон мобильного меню bottom */
+    --theme-nav-secondary: #000; /* цвет не выбранного пункта мобильного меню bottom */
+    --theme-nav-light: #ccc; /* border мобильного меню bottom  */
+    --theme-nav-highlight: #20a6e4; /* цвет текста и иконки выбранного пункта мобильного меню bottom */
+    --theme-nav-selected: #eee; /* выбранный пункт мобильного меню bottom */
 
-    --theme-scrollbar-track: #c3e4cc;
-    --theme-scrollbar-thumb: #55bd91;
-    --theme-chart-borders: #e7f6e3;
+    --theme-scrollbar-track: #ccc;
+    --theme-scrollbar-thumb: #999;
+    --theme-chart-borders: #e30606; 
 
     --theme-danger: #fad6d6;
 }
@@ -137,7 +138,7 @@ $loader-background-color: #111111;
     background-position: center;
 }
 
-.bg-green {
+.bg-white {
     background-image: url('/images/css/bg-green.png');
     background-size: cover;
     background-position: center;

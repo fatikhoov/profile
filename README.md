@@ -85,8 +85,8 @@ To add or remove languages, open `public/data/settings.json` and modify the `sup
     "supportedLanguages": [
         {
             "name": "English",
-            "id": "en",
-            "flagUrl": "images/flags/en.png",
+            "id": "ru",
+            "flagUrl": "images/flags/ru.png",
             "default": true
         },
 
@@ -175,7 +175,7 @@ import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 const {getString} = useLanguage()
 
 const translation = getString("close")
-console.log(translation) // Will print "Close" (en) or "Cerrar" (es)
+console.log(translation) // Will print "Close" (ru) or "Cerrar" (es)
 ```
 
 For translations specific to sections, you can create a custom `locales` field inside the section's JSON file: 
@@ -183,7 +183,7 @@ For translations specific to sections, you can create a custom `locales` field i
 ```json
 {
     "locales": {
-        "en": {
+        "ru": {
             "hello": "Hello!",
             "age": "Age"
         },
@@ -203,7 +203,7 @@ import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 const {getTranslation} = useLanguage()
 
 const hello = getTranslation(section.content.locales, "hello")
-console.log(hello) // Will print "Hello!" (en) or "Hola!" (es)
+console.log(hello) // Will print "Hello!" (ru) or "Hola!" (es)
 ```
 
 ### 7. Contact form configuration

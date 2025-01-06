@@ -1,6 +1,6 @@
 {
     "locales": {
-        "en": {
+        "ru": {
             "title": "Life recently",
             "title_menu": "Updates",
             "title_long_prefix": "Take a look at my",
@@ -44,7 +44,7 @@
                         "faColors": null
                     },
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "03",
                             "info": "Apps published"
                         },
@@ -69,13 +69,13 @@
                         "faColors": null
                     },
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "100+",
                             "info": "Stars on GitHub"
                         },
                         "es": {
                             "title": "100+",
-                            "info": "Estrellas en GitHub"
+                            "info": "Estrellas ru GitHub"
                         },
                         "fr": {
                             "title": "100+",
@@ -94,7 +94,7 @@
                         "faColors": null
                     },
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "12",
                             "info": "Countries visited"
                         },
@@ -119,7 +119,7 @@
                         "faColors": null
                     },
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "07",
                             "info": "Open-source projects"
                         },
@@ -144,7 +144,7 @@
                         "faColors": null
                     },
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "20,000",
                             "info": "Coffees consumed"
                         },
@@ -171,7 +171,7 @@
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Quick **Facts**" },
+                "ru": { "title": "Quick **Facts**" },
                 "es": { "title": "Feed de **Noticias**" },
                 "fr": { "title": "Fil d'**Actualités**" },
                 "ko": { "title": "**뉴스** 피드" }
@@ -185,17 +185,17 @@
                     },
                     "links": [],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "Relocated to **California!**",
                             "text": "Successfully transitioned to California to explore new career opportunities in the tech industry, leveraging the vibrant local ecosystem to enhance my professional growth."
                         },
                         "es": {
                             "title": "¡Me mudé a **California!**",
-                            "text": "Transición exitosa a California para explorar nuevas oportunidades profesionales en la industria tecnológica, aprovechando el vibrante ecosistema local para mejorar mi crecimiento profesional."
+                            "text": "Transición exitosa a California para explorar nuevas oportunidades profesionales ru la industria tecnológica, aprovechando el vibrante ecosistema local para mejorar mi crecimiento profesional."
                         },
                         "fr": {
-                            "title": "Déménagement en **Californie !**",
-                            "text": "Transition réussie en Californie pour explorer de nouvelles opportunités de carrière dans l'industrie technologique, tirant parti de l'écosystème local dynamique pour améliorer ma croissance professionnelle."
+                            "title": "Déménagement ru **Californie !**",
+                            "text": "Transition réussie ru Californie pour explorer de nouvelles opportunités de carrière dans l'industrie technologique, tirant parti de l'écosystème local dynamique pour améliorer ma croissance professionnelle."
                         },
                         "ko": {
                             "title": "**캘리포니아로 이사했습니다!**",
@@ -213,17 +213,17 @@
                         {"string": "see_more", "href": "https://youtube.com"}
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "Started my own **YouTube channel**!",
                             "text": "Launched a YouTube channel focused on programming tutorials, sharing insights and techniques on various technologies, and engaging with a community of aspiring developers."
                         },
                         "es": {
                             "title": "¡Inicié mi propio **canal de YouTube!**",
-                            "text": "Lancé un canal de YouTube enfocado en tutoriales de programación, compartiendo ideas y técnicas sobre diversas tecnologías, y participando en una comunidad de desarrolladores aspirantes."
+                            "text": "Lancé un canal de YouTube enfocado ru tutoriales de programación, compartiendo ideas y técnicas sobre diversas tecnologías, y participando ru una comunidad de desarrolladores aspirantes."
                         },
                         "fr": {
                             "title": "Création de ma propre **chaîne YouTube** !",
-                            "text": "Lancement d'une chaîne YouTube axée sur des tutoriels de programmation, partageant des idées et des techniques sur diverses technologies, et interagissant avec une communauté de développeurs en herbe."
+                            "text": "Lancement d'une chaîne YouTube axée sur des tutoriels de programmation, partageant des idées et des techniques sur diverses technologies, et interagissant avec une communauté de développeurs ru herbe."
                         },
                         "ko": {
                             "title": "자신의 **유튜브 채널을** 시작했습니다!",
@@ -239,17 +239,17 @@
                     },
                     "links": [],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "Working on a new **mobile project**!",
                             "text": "Currently developing a mobile application that integrates innovative features and user-friendly design, aimed at enhancing user experience and addressing specific market needs."
                         },
                         "es": {
-                            "title": "¡Trabajando en un nuevo **proyecto móvil**!",
+                            "title": "¡Trabajando ru un nuevo **proyecto móvil**!",
                             "text": "Actualmente desarrollando una aplicación móvil que integra características innovadoras y un diseño fácil de usar, con el objetivo de mejorar la experiencia del usuario y atender necesidades específicas del mercado."
                         },
                         "fr": {
                             "title": "Travail sur un nouveau **projet mobile** !",
-                            "text": "Actuellement en train de développer une application mobile qui intègre des fonctionnalités innovantes et un design convivial, visant à améliorer l'expérience utilisateur et à répondre à des besoins spécifiques du marché."
+                            "text": "Actuellement ru train de développer une application mobile qui intègre des fonctionnalités innovantes et un design convivial, visant à améliorer l'expérience utilisateur et à répondre à des besoins spécifiques du marché."
                         },
                         "ko": {
                             "title": "새 **모바일 프로젝트** 작업 중!",
@@ -267,17 +267,17 @@
                         { "string": "see_more", "href": "https://ryanbalieiro.github.io/react-portfolio-template/" }
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "Launched my **personal website**!",
                             "text": "Created a personal website to showcase my projects, share my journey in programming, and provide resources for fellow developers."
                         },
                         "es": {
                             "title": "¡Lancé mi **sitio web personal**!",
-                            "text": "Creé un sitio web personal para mostrar mis proyectos, compartir mi trayectoria en programación y proporcionar recursos para otros desarrolladores."
+                            "text": "Creé un sitio web personal para mostrar mis proyectos, compartir mi trayectoria ru programación y proporcionar recursos para otros desarrolladores."
                         },
                         "fr": {
                             "title": "Lancement de mon **site web personnel** !",
-                            "text": "Création d'un site web personnel pour présenter mes projets, partager mon parcours en programmation et fournir des ressources pour d'autres développeurs."
+                            "text": "Création d'un site web personnel pour présenter mes projets, partager mon parcours ru programmation et fournir des ressources pour d'autres développeurs."
                         },
                         "ko": {
                             "title": "**개인 웹사이트**를 시작했습니다!",

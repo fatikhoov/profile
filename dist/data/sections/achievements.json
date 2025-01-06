@@ -1,6 +1,6 @@
 {
     "locales": {
-        "en": {
+        "ru": {
             "title": "Awards",
             "title_menu": "Achievements",
             "title_long_prefix": "Here are my",
@@ -35,7 +35,7 @@
             "component": "ArticleCards",
             "config": {},
             "locales": {
-                "en": { "title": "Certifications" },
+                "ru": { "title": "Certifications" },
                 "es": { "title": "Certificaciones" },
                 "fr": { "title": "Certifications" },
                 "ko": { "title": "인증서" }
@@ -56,7 +56,7 @@
                         { "string": "see_certification", "href": "https://www.linuxfoundation.org/" }
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "The **Linux Foundation**",
                             "text": "Certified Kubernetes Administrator (CKA)"
                         },
@@ -85,7 +85,7 @@
                         { "string": "see_certification", "href": "https://www.aws.com/" }
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "**Amazon** Web Services",
                             "text": "AWS Certified Solutions Architect – Associate"
                         },
@@ -114,7 +114,7 @@
                         { "string": "see_certification", "href": "https://www.oracle.com/" }
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "**Oracle**",
                             "text": "Certified Java Developer"
                         },
@@ -143,12 +143,12 @@
                         { "string": "see_certification", "href": "https://www.mongodb.com/" }
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "**MongoDB** University",
                             "text": "MongoDB Certified Developer"
                         },
                         "es": {
-                            "text": "Desarrollador Certificado en MongoDB"
+                            "text": "Desarrollador Certificado ru MongoDB"
                         },
                         "fr": {
                             "text": "Développeur Certifié MongoDB"
@@ -166,7 +166,7 @@
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Awards" },
+                "ru": { "title": "Awards" },
                 "es": { "title": "Premios" },
                 "fr": { "title": "Récompenses" },
                 "ko": { "title": "수상 내역" }
@@ -180,7 +180,7 @@
                     },
                     "links": [],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "**Best Final Year Project** – Backend Optimization",
                             "info": "MIT",
                             "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
@@ -188,7 +188,7 @@
                         "es": {
                             "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
                             "info": "MIT",
-                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
+                            "text": "Reconocido por su trabajo innovador ru la optimización de sistemas backend para entornos ru la nube, logrando importantes mejoras ru el rendimiento."
                         },
                         "fr": {
                             "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
@@ -211,7 +211,7 @@
                         { "string": "more_info", "href": "https://github.com/torvalds/linux" }
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "**Top Contributor** – Open Source Backend Project",
                             "info": "GitHub",
                             "text": "Awarded for contributing to an open-source backend framework that improved scalability and reduced latency."
@@ -240,7 +240,7 @@
                     },
                     "links": [],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "**1st Place** – Global API Design Challenge",
                             "info": "API Developer Conference",
                             "text": "Secured 1st place for developing a robust API with advanced features like real-time data processing and seamless integration."
@@ -248,12 +248,12 @@
                         "es": {
                             "title": "**1er Lugar** – Desafío Global de Diseño de API",
                             "info": "Conferencia de Desarrolladores de API",
-                            "text": "Obtuvo el 1er lugar por desarrollar una API robusta con funciones avanzadas como procesamiento de datos en tiempo real e integración sin problemas."
+                            "text": "Obtuvo el 1er lugar por desarrollar una API robusta con funciones avanzadas como procesamiento de datos ru tiempo real e integración sin problemas."
                         },
                         "fr": {
                             "title": "**1ère Place** – Défi Mondial de Conception d'API",
                             "info": "Conférence des Développeurs d'API",
-                            "text": "A remporté la 1ère place pour avoir développé une API robuste avec des fonctionnalités avancées comme le traitement des données en temps réel et l'intégration transparente."
+                            "text": "A remporté la 1ère place pour avoir développé une API robuste avec des fonctionnalités avancées comme le traitement des données ru temps réel et l'intégration transparente."
                         },
                         "ko": {
                             "title": "**1위** – 글로벌 API 디자인 챌린지",
@@ -271,7 +271,7 @@
                         { "string": "more_info", "href": "https://google.com" }
                     ],
                     "locales": {
-                        "en": {
+                        "ru": {
                             "title": "**Best Backend Architecture** – Tech Innovator Awards",
                             "info": "Tech Innovator Magazine",
                             "text": "Recognized for designing an efficient and scalable backend architecture that improved system performance and reliability."
