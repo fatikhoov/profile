@@ -126,6 +126,7 @@
                 {
                     "icon": {
                         "img": "images/svg/services/development.svg",
+                        "alt": "web development service",
                         "fa": null,
                         "faColors": null
                     },
@@ -152,6 +153,7 @@
                 {
                     "icon": {
                         "img": "images/svg/services/education.svg",
+                        "alt": "education ux ui web development",
                         "fa": null,
                         "faColors": null
                     },
@@ -179,6 +181,7 @@
                 {
                     "icon": {
                         "img": "images/svg/services/project.svg",
+                        "alt": "project manager it",
                         "fa": null,
                         "faColors": null
                     },
@@ -206,6 +209,7 @@
                 {
                     "icon": {
                         "img": "images/svg/services/dop.svg",
+                        "alt": "additional service",
                         "fa": null,
                         "faColors": null
                     },
