@@ -28,7 +28,7 @@
         "available": true,
 
         "locales": {
-            "ru": {"message": "Открыт к предложениям"},
+            "ru": {"message": "Обсудим проект?"},
             "es": {"message": "¡Disponible para freelance!"}
         }
     },
