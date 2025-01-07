@@ -73,7 +73,7 @@
             "id": "background",
             "faIcon": "fa-solid fa-clock",
             "locales": {
-                "ru": {"title": "Мой опыт"},
+                "ru": {"title": "Опыт"},
                 "es": {"title": "Trayectoria"},
                 "fr": {"title": "Parcours"},
                 "ko": {"title": "경력"}
