@@ -7,20 +7,20 @@ ul.inline-list {
     font-family: $custom-subheadings-font-family;
 
     display: flex;
-    gap: 8px;
+    gap: 16px;
     justify-content: center;
-}
+    }
 
 li.inline-list-item {
     display: inline-flex;
-    padding: 0.5rem;
+    padding: 0.4rem 0.8rem;
     font-weight: bold;
-    /* background-color: var(--theme-section-background-opacity);
-    border-radius: 10px; */
-    
-   /*  &:not(:last-child)::after {
+    background-color: var(--theme-soft);
+    border-radius: 4px;
+      
+    /* &:not(:last-child)::after {
         content: "∙";
-        padding-left: 0.5rem;
+        padding-left: 0.75rem;
         color: #aaa;
         opacity: .5;
     } */

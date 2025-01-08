@@ -1,10 +1,10 @@
 {
     "locales": {
         "ru": {
-            "title": "Life recently",
-            "title_menu": "Updates",
-            "title_long_prefix": "Take a look at my",
-            "title_long": "Recent **Updates**"
+            "title": "Жизнь недавно",
+            "title_menu": "Обновления",
+            "title_long_prefix": "Взгляните на мои",
+            "title_long": "Недавние **Обновления**"
         },
 
         "es": {

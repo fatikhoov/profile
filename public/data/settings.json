@@ -6,17 +6,17 @@
     "preloader": {
         "enabled": true,
         "title": "<b>Владислав Фатихов</b>",
-        "subtitle": "Веб разработчик"
+        "subtitle": "Фрилансер"
     },
 
     "profile": {
         "name": "Владислав Фатихов",
-        "stylizedName": "<strong>Владислав Фатихов</strong>",
+        "stylizedName": "<strong>Владислав **Фатихов**</strong>",
         "logoUrl": "images/svg/logo.svg",
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
         "locales": {
-            "ru": {"role": "Веб разработчик"},
+            "ru": {"role": "Фрилансер"},
             "es": {"role": "Desarrollador Web"}
         }
     },

@@ -2,7 +2,7 @@
     "locales": {
         "ru": {
             "title": "Контакты",
-            "title_long_prefix": "Не стесняйтесь",
+            "title_long_prefix": "Не стесняйтесь, обсудим проект?",
             "title_long": "**Связаться** со мной"
         },
 
@@ -34,16 +34,14 @@
             },
             "locales": {
                 "ru": {"title": "Или, если вы **предпочитаете**..."},
-                "es": {"title": "O si **prefieres**..."},
-                "fr": {"title": "Ou si vous **préférez**..."},
-                "ko": {"title": "또는 **원하시면**..."}
+                "es": {"title": "O si **prefieres**..."}
             },
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+7 (999) 130-3619",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:79991303619"}
                     ],
                     "icon": {
                         "img": null,
@@ -51,17 +49,15 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "ru": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                        "ru": {"title": "Телефон"},
+                        "es": {"title": "Teléfono"}
                     }
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "mail@fatih.digital",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:mail@fatih.digital"}
                     ],
                     "icon": {
                         "img": null,
@@ -69,68 +65,23 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "ru": {"title": "E-mail"},
+                        "ru": {"title": "Почта"},
                         "ko": {"title": "이메일"}
                     }
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@vladislav_fatikhov",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://t.me/vladislav_fatikhov"}
                     ],
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-linkedin",
+                        "fa": "fa-brands fa-telegram",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "ru": {"title": "Linkedin"}
-                    }
-                },
-
-                {
-                    "value": "Mark Choi",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "ru": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://instagram.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-instagram",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "ru": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "ru": {"title": "TikTok"}
+                        "ru": {"title": "Telegram"}
                     }
                 }
             ]
