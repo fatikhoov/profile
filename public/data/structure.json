@@ -62,7 +62,7 @@
             "id": "home",
             "faIcon": "fa-solid fa-home",
             "locales": {
-                "ru": {"title": "Главная"},
+                "ru": {"title": "Услуги"},
                 "es": {"title": "Inicio"},
                 "fr": {"title": "Accueil"},
                 "ko": {"title": "홈페이지"}
@@ -73,7 +73,7 @@
             "id": "background",
             "faIcon": "fa-solid fa-clock",
             "locales": {
-                "ru": {"title": "Опыт"},
+                "ru": {"title": "Мой путь"},
                 "es": {"title": "Trayectoria"},
                 "fr": {"title": "Parcours"},
                 "ko": {"title": "경력"}

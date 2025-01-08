@@ -137,12 +137,12 @@ function SectionHeader({section}) {
     let title = utils.parseJsonText(getTranslation(section.content["locales"], "title_long"))
     let prefix = utils.parseJsonText(getTranslation(section.content["locales"], "title_long_prefix", false))
         title = null
-        prefix = null
     if(!isBreakpoint("lg")) {
-        /* title = getTranslation(section.content["locales"], "title") */
-        /* title = `<span class="text-highlight">${title}</span>` */
-        title = null
-        prefix = null
+    /*
+        title = getTranslation(section.content["locales"], "title") 
+        title = `<span class="text-highlight">${title}</span>` 
+        prefix = null 
+    */
     }
 
     return (

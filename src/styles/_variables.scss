@@ -1,5 +1,5 @@
 /** ----------- FONTS ------------ **/
-$font-family-base: 'Roboto', sans-serif;
+$font-family-base: 'Ubuntu', sans-serif;
 $headings-font-family: 'Montserrat', sans-serif;
 $custom-subheadings-font-family: 'Oxygen', sans-serif;
 
@@ -27,7 +27,7 @@ $sidebar-min-breakpoint: md;
 /** ----------- COLORS ----------- **/
 
 /** COLORS - overriding bootstrap colors **/
-$primary: #32ADE6;
+$primary: #0891b2;
 $secondary: #6c757d;
 $dark: #222;
 $light: #EEE;
@@ -55,14 +55,14 @@ $loader-background-color: #222;
     --theme-soft-2: #252525;
     --theme-soft-3: #292929;
    
-    --theme-highlight: #32ADE6;
-    --theme-highlight-2: #ccc;
+    --theme-highlight: #0891b2;
+    --theme-highlight-2: #aaa;
     --theme-highlight-3: #999;
    
     --theme-dark: #101010;
-    --theme-dark-opacity: rgba(16, 16, 16, 0.2);
+    --theme-dark-opacity: #0890b22f;
     --theme-muted: #6c757d;
-    --theme-white: #EEE;
+    --theme-white: #aaa; /* иконки в форме обратной связи */
    
     --theme-bg: url('/images/css/bg-dark.png');
     --theme-bg-color: #1C1C1C;
@@ -75,7 +75,7 @@ $loader-background-color: #222;
     --theme-nav-background-disabled: #181818;
     --theme-nav-secondary: #EEEEEE;
     --theme-nav-light: #1f2022;
-    --theme-nav-highlight: #32ADE6;
+    --theme-nav-highlight: #0891b2;
     --theme-nav-selected: #232526;
    
     --theme-scrollbar-track: #111111;
@@ -91,7 +91,7 @@ $loader-background-color: #222;
     --theme-main: #999;
     --theme-main-2: #888;
     --theme-main-3: #777;
-    --theme-main-4: #32ADE6;
+    --theme-main-4: #0891b2;
    
     --theme-secondary: #222;  
     --theme-secondary-2: #49564a;
@@ -100,15 +100,15 @@ $loader-background-color: #222;
    
     --theme-soft: #ccc; /* бордер круга отзывы */
     --theme-soft-2: #bbb; /* фон карточки отзывы */
-    --theme-soft-3: #ccc; /* бордер круга увлечения */
+    --theme-soft-3: #aaa; /* бордер круга увлечения */
    
     --theme-dark: #ccc; /* фон шкалы прогресса и текст табов блок портфолио */
-    --theme-dark-opacity: rgba(51, 0, 255, 0.22); /* граница круга под фото онлайна */
+    --theme-dark-opacity: #164e6326; /* граница круга под фото онлайна */
     --theme-muted: #999; /* текст и процент шкалы прогресса и текст на карточке увлечения */
     --theme-white: #777; /* иконки формы обратной связи в полях импутов */
    
-    --theme-highlight: #32ADE6;
-    --theme-highlight-2: #777; /* ссылки почта, гитхаб, бордет активного пункта меню */
+    --theme-highlight: #164e63;
+    --theme-highlight-2: #aaa; /* ссылки почта, гитхаб, бордет активного пункта меню */
     --theme-highlight-3: #414141;
    
     --theme-bg: url('');
@@ -122,7 +122,7 @@ $loader-background-color: #222;
     --theme-nav-background-disabled: #ddd; /* фон мобильного меню bottom */
     --theme-nav-secondary: #000; /* цвет не выбранного пункта мобильного меню bottom */
     --theme-nav-light: #ccc; /* border мобильного меню bottom  */
-    --theme-nav-highlight: #20a6e4; /* цвет текста и иконки выбранного пункта мобильного меню bottom */
+    --theme-nav-highlight: #0891b2; /* цвет текста и иконки выбранного пункта мобильного меню bottom */
     --theme-nav-selected: #eee; /* выбранный пункт мобильного меню bottom */
 
     --theme-scrollbar-track: #ccc;

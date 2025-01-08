@@ -46,7 +46,7 @@ function Preloader({children}) {
             return
         }
 
-        if(settings && didLoadLogo && didLoadSvg) {
+        if(settings /* && didLoadLogo */ && didLoadSvg) {
             _tweenIn()
         }
     }, [didLoadLogo, didLoadSvg, settings])
@@ -121,15 +121,15 @@ function Preloader({children}) {
 
                         <div className={`loader-content-info ${contentInfoClass}`}>
                             <div className={`title-wrapper`}>
-                                <img src={utils.resolvePath(`/images/svg/logo.svg`)}
+                                {/* <img src={utils.resolvePath(`/images/svg/logo.svg`)}
                                      onLoad={() => {setDidLoadLogo(true)}}
                                      className={`logo me-3`}
-                                     alt={`logo`}/>
+                                     alt={`logo`}/> */}
                                 <h5 dangerouslySetInnerHTML={{__html: title}}/>
                             </div>
-
-                            <p  className={`opacity-50 text-4 text-center`}
+                            <p  className={`opacity-50 text-5 text-center`}
                                 dangerouslySetInnerHTML={{__html: subtitle}}/>
+                         
                         </div>
                     </div>
                 </div>

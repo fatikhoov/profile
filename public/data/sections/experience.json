@@ -1,7 +1,7 @@
 {
     "locales": {
         "ru": {
-            "title": "Experience",
+            "title": "Опыт работы",
             "title_long_prefix": "Summary of my",
             "title_long": "**Work** Experience"
         },
@@ -10,18 +10,6 @@
             "title": "Experiencia",
             "title_long_prefix": "Resumen de mi",
             "title_long": "Experiencia **Laboral**"
-        },
-
-        "fr": {
-            "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
-        },
-
-        "ko": {
-            "title": "경험",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**직업적** 경험"
         }
     },
 

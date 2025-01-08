@@ -26,12 +26,14 @@ button {
         color: var(--theme-secondary);
         opacity: 0.2;
     }
-}
+} 
 
 .btn-secondary {
     background-color: var(--theme-muted);
     color: var(--theme-dark);
     border: 0;
+    padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+    border-radius: 100px;
 
     &:hover, &:focus, &:active {
         background-color: var(--theme-secondary)!important;

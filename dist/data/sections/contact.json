@@ -1,27 +1,15 @@
 {
     "locales": {
         "ru": {
-            "title": "Contact",
-            "title_long_prefix": "Don't hesitate to",
-            "title_long": "**Contact** Me"
+            "title": "Контакты",
+            "title_long_prefix": "Не стесняйтесь",
+            "title_long": "**Связаться** со мной"
         },
 
         "es": {
             "title": "Contacto",
             "title_long_prefix": "No dudes ru",
             "title_long": "**Contácta**me"
-        },
-
-        "fr": {
-            "title": "Contact",
-            "title_long_prefix": "N'hésitez pas à",
-            "title_long": "Me **Contacter**"
-        },
-
-        "ko": {
-            "title": "연락처",
-            "title_long_prefix": "주저하지 말고",
-            "title_long": "**연락** 주세요"
         }
     },
 
@@ -31,10 +19,8 @@
             "component": "ArticleContactForm",
             "config": {},
             "locales": {
-                "ru": {"title": "Send me a **message**"},
-                "es": {"title": "Envíame un **mensaje**"},
-                "fr": {"title": "Envoyez-moi un **message**"},
-                "ko": {"title": "**메시지를** 보내주세요"}
+                "ru": {"title": "Напишите мне **письмо**"},
+                "es": {"title": "Envíame un **mensaje**"}
             },
 
             "items": null
@@ -47,7 +33,7 @@
                 "format": "grid"
             },
             "locales": {
-                "ru": {"title": "Or if you **prefer**..."},
+                "ru": {"title": "Или, если вы **предпочитаете**..."},
                 "es": {"title": "O si **prefieres**..."},
                 "fr": {"title": "Ou si vous **préférez**..."},
                 "ko": {"title": "또는 **원하시면**..."}

@@ -117,6 +117,9 @@ a {
 } 
 Это цветной текст
 */
+.text-highlight {
+    color: var(--theme-highlight);
+} 
 
 .text-muted {
     color: var(--theme-muted)!important;

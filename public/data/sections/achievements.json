@@ -1,10 +1,10 @@
 {
     "locales": {
         "ru": {
-            "title": "Awards",
-            "title_menu": "Achievements",
-            "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
+            "title": "Награды",
+            "title_menu": "Достижения",
+            "title_long_prefix": "Вот мои",
+            "title_long": "Карьерные **достижения**"
         },
 
         "es": {
@@ -12,20 +12,6 @@
             "title_menu": "Logros",
             "title_long_prefix": "Aquí están mis",
             "title_long": "**Logros** Profesionales"
-        },
-
-        "fr": {
-            "title": "Réalis",
-            "title_menu": "Réalisations",
-            "title_long_prefix": "Voici",
-            "title_long": "Mes **Réalisations**"
-        },
-
-        "ko": {
-            "title": "경력 성과",
-            "title_menu": "경력 성과",
-            "title_long_prefix": "다음은",
-            "title_long": "**경력 성과**입니다"
         }
     },
 
@@ -35,7 +21,7 @@
             "component": "ArticleCards",
             "config": {},
             "locales": {
-                "ru": { "title": "Certifications" },
+                "ru": { "title": "Сертификаты" },
                 "es": { "title": "Certificaciones" },
                 "fr": { "title": "Certifications" },
                 "ko": { "title": "인증서" }
@@ -166,7 +152,7 @@
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "ru": { "title": "Awards" },
+                "ru": { "title": "Награды" },
                 "es": { "title": "Premios" },
                 "fr": { "title": "Récompenses" },
                 "ko": { "title": "수상 내역" }

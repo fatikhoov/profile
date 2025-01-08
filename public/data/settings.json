@@ -6,7 +6,7 @@
     "preloader": {
         "enabled": true,
         "title": "<b>Владислав Фатихов</b>",
-        "subtitle": "Загружаю портфолио .."
+        "subtitle": "Веб разработчик"
     },
 
     "profile": {
@@ -17,9 +17,7 @@
 
         "locales": {
             "ru": {"role": "Веб разработчик"},
-            "es": {"role": "Desarrollador Web"},
-            "fr": {"role": "Développeur Web"},
-            "ko": {"role": "웹 개발자"}
+            "es": {"role": "Desarrollador Web"}
         }
     },
 
@@ -36,13 +34,13 @@
     "supportedThemes": [
         {
             "id": "dark",
-            "default": true,
+            "default": false,
             "icon": "fa-solid fa-moon"
         },
 
         {
             "id": "light",
-            "default": false,
+            "default": true,
             "icon": "fa-solid fa-sun"
         }
     ],
