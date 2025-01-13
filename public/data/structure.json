@@ -6,6 +6,7 @@
             "jsonPath": "/data/sections/cover.json",
             "faIcon": "fa-solid fa-address-card"
         },
+
         {
             "id": "contact",
             "categoryId": "more",
@@ -27,31 +28,13 @@
         },
 
         {
-            "id": "background",
-            "faIcon": "fa-solid fa-clock",
-            "locales": {
-                "ru": {"title": "Мой путь"},
-                "es": {"title": "Trayectoria"},
-                "fr": {"title": "Parcours"},
-                "ko": {"title": "경력"}
-            }
-        },
-
-        {
-            "id": "showcase",
-            "faIcon": "fa-solid fa-images",
-            "locales": {
-                "ru": {"title": "Портфолио"},
-                "es": {"title": "Vitrina"}
-            }
-        },
-
-        {
             "id": "more",
-            "faIcon": "fa-solid fa-phone",
+            "faIcon": "fa-brands fa-telegram",
             "locales": {
-                "ru": {"title": "Контакты"},
-                "es": {"title": "Más"}
+                "ru": {"title": "Мои контакты"},
+                "es": {"title": "Más"},
+                "fr": {"title": "Plus"},
+                "ko": {"title": "더보기"}
             }
         }
     ]

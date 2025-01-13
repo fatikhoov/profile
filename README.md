@@ -103,3 +103,102 @@
         }
     ]
 }
+
+
+
+
+
+
+*********************************************
+
+
+{
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "ru": {"title": "Мои **услуги**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/services/development.svg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": null,
+                    "locales": {
+                        "ru": {
+                            "title": "Разработка сайтов 'под ключ'",
+                            "info": "Полный цикл: от идеи до запуска. Включает: дизайн, верстку, интеграцию с API и SEO настройку."},
+                        "es": {
+                            "title": "Tocar la guitarra",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/svg/services/education.svg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": null,
+                    "locales": {
+                        "ru": {
+                            "title": "SEO оптимизация",
+                            "info": "Анализ сайта и внедрение улучшений: скорость, структура, ключевые слова, подключение метрик."
+                        },
+                        "es": {
+                            "title": "Edición de video con IA",
+                            "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/svg/services/project.svg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": null,
+                    "locales": {
+                        "ru": {
+                            "title": "Техническая поддержка и администрирование",
+                            "info": "Администрирование контента, исправление ошибок, проверка производительности сайта."
+                        },
+                        "es": {
+                            "title": "Ilustración",
+                            "info": "Practicando arte digital y explorando nuevos estilos."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/svg/services/dop.svg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "value": null,
+                    "locales": {
+                        "ru": {
+                            "title": "Обучение сотрудников",
+                            "info": "Работа с CMS, Figma, самостоятельность в редактировании контента, обучение основам HTML, CSS, JavaScript."
+                        },
+                        "es": {
+                            "title": "Invertir",
+                            "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                        }
+                    }
+                }
+            ]
+        }

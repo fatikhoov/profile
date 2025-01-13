@@ -71,7 +71,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "ru": {"text": "<p>Я веб разработчик с двухлетним опытом.</p><p>Содействую развитию проектов и достижению бизнес-целей через инновационные веб-решения и обучение.</p> "},
+                        "ru": {"text": "Я веб разработчик с двухлетним опытом <br>Использую инновационные веб решения <br>для развития проектов и достижения бизнес целей"},
                         "es": {"text": "<p>Soy un desarrollador de PHP con <b>más de una década</b> de experiencia, especializado ru desarrollo backend y con algo de experiencia ru frontend. También tengo experiencia práctica ru entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"}
                     }
                 }
@@ -79,90 +79,78 @@
         },
         
         {
-            "id": "interests",
-            "component": "ArticleGrid",
-            "config": {
-                "format": "grid"
-            },
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
             "locales": {
-                "ru": {"title": "Мои **услуги**"},
-                "es": { "title": "Intereses **personales**" },
-                "fr": { "title": "Intérêts **personnels** " },
-                "ko": { "title": "개인 **관심사**" }
+                "ru": { "title": "Мои **услуги**" }
             },
 
             "items": [
                 {
-                    "icon": {
-                        "img": "images/svg/services/development.svg",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                    "dates": {
+                        "start": "от 5 дней",
+                        "end": "до 1 месяца"
                     },
-                    "value": null,
+                    "links": [
+                        { "string": "tolk_service", "href": "https://t.me/vladislav_fatikhov" }
+                    ],
                     "locales": {
                         "ru": {
-                            "title": "Разработка сайтов 'под ключ'",
-                            "info": "Полный цикл: от идеи до запуска. Включает: дизайн, верстку, интеграцию с API и SEO настройку."},
-                        "es": {
-                            "title": "Tocar la guitarra",
-                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                            "title": "**Разработка сайтов** - под ключ",
+                            "info": "Поэтапный, прозрачный подход",
+                            "text": "Полный цикл: от идеи до запуска <br>Включает: дизайн, верстку, интеграцию с API и SEO настройку"
+                        }
+                    }
+                },
+                
+                {
+                    "dates": {
+                        "start": "от 25 000 руб.",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "select_service", "href": "https://t.me/vladislav_fatikhov" }
+                    ],
+                    "locales": {
+                        "ru": {
+                            "title": "**SEO** оптимизация",
+                            "info": null,
+                            "text": "Анализ сайта и внедрение улучшений: <br>скорость, структура, ключевые слова, подключение метрик"
                         }
                     }
                 },
 
                 {
-                    "icon": {
-                        "img": "images/svg/services/education.svg",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                    "dates": {
+                        "start": "до 20 ч. в мес.",
+                        "end": null
                     },
-                    "value": null,
+                    "links": [
+                        { "string": "select_service", "href": "https://t.me/vladislav_fatikhov" }
+                    ],
                     "locales": {
                         "ru": {
-                            "title": "SEO оптимизация",
-                            "info": "Анализ сайта и внедрение улучшений: скорость, структура, ключевые слова, подключение метрик."
-                        },
-                        "es": {
-                            "title": "Edición de video con IA",
-                            "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                            "title": "**Администрирование** и техническая поддержка",
+                            "info": null,
+                            "text": "Администрирование контента <br>Исправление ошибок <br>Проверка производительности"
                         }
                     }
                 },
 
                 {
-                    "icon": {
-                        "img": "images/svg/services/project.svg",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                    "dates": {
+                        "start": "1500 рублей",
+                        "end": "90 минут"
                     },
-                    "value": null,
+                    "links": [
+                        { "string": "select_service", "href": "https://t.me/vladislav_fatikhov" }
+                    ],
                     "locales": {
                         "ru": {
-                            "title": "Техническая поддержка и администрирование",
-                            "info": "Администрирование контента, исправление ошибок, проверка производительности сайта."
-                        },
-                        "es": {
-                            "title": "Ilustración",
-                            "info": "Practicando arte digital y explorando nuevos estilos."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/svg/services/dop.svg",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "value": null,
-                    "locales": {
-                        "ru": {
-                            "title": "Обучение сотрудников",
-                            "info": "Работа с CMS, Figma, самостоятельность в редактировании контента, обучение основам HTML, CSS, JavaScript."
-                        },
-                        "es": {
-                            "title": "Invertir",
-                            "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                            "title": "**Обучение** сотрудников",
+                            "info": "-50% на 1 урок",
+                            "text": "Работа с CMS, основы в Figma<br>Редактировании контента<br>Обучение основам HTML, CSS, JavaScript"
                         }
                     }
                 }
