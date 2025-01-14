@@ -27,7 +27,7 @@ function ArticleGrid({ data }) {
         <Article className={`article-grid`} title={parsedData.title}>
             <div className={`text-center`}>
                 {parsedData.config.format === 'inline' && (
-                    <InlineList items={parsedItems} textClass={!isBreakpoint('sm') ? 'text-3' : 'text-4'}/>
+                    <InlineList items={parsedItems} textClass={!isBreakpoint('sm') ? 'text-2' : 'text-3'}/>
                 )}
             </div>
 

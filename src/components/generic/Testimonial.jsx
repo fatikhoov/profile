@@ -22,14 +22,14 @@ function Testimonial({quote, avatar, fallbackIcon, fallbackIconColors, author, r
                 </div>
             </div>
 
-            <CircleAvatar img={avatar}
+           {/*  <CircleAvatar img={avatar}
                           alt={author}
                           size={3}
                           fallbackIcon={fallbackIcon}
-                          fallbackIconColors={fallbackIconColors}/>
+                          fallbackIconColors={fallbackIconColors}/> */}
 
             <div className={`testimonial-info mt-2`}>
-                <div className={`name`}>
+                <h3 className={`name`}>
                     {href && (
                         <ExternalLink href={href} className={`text-5`}>{author}</ExternalLink>
                     )}
@@ -37,9 +37,9 @@ function Testimonial({quote, avatar, fallbackIcon, fallbackIconColors, author, r
                     {!href && (
                         <span className={`text-5`}>{author}</span>
                     )}
-                </div>
+                </h3>
 
-                <span className={`role text-secondary text-2`}
+                <h4 className={`role text-secondary text-2`}
                       dangerouslySetInnerHTML={{__html: role}}/>
 
             </div>

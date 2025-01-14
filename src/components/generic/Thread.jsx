@@ -16,14 +16,14 @@ function Thread({ items, shouldShowAsComplete }) {
                     </div>
 
                     <div className={`thread-item-content`}>
-                        <h6 className={`title fw-bold`} dangerouslySetInnerHTML={{__html: item.title}}/>
+                        <h3 className={`title fw-bold`} dangerouslySetInnerHTML={{__html: item.title}}/>
 
                         <div className={`badges pt-1`}>
                             <InfoBadge faIcon={`fa-solid fa-calendar`} text={item.date}/>
                             {item.place && (<InfoBadge faIcon={`fa-solid fa-building`} text={item.place}/>)}
                         </div>
 
-                        <div className={`description mt-2 text-4`}
+                        <p className={`description mt-2 text-4`}
                              dangerouslySetInnerHTML={{__html: item.description}}/>
 
                         <div className={`link-wrapper ${item.href ? 'mt-4' : 'mt-2'}`}>

@@ -28,7 +28,7 @@ function NavHeader({ shrink }) {
         <header className={`nav-header ${shrink ? "nav-header-shrink" : ""}`}>
             <ImageView src={pfpUrl}
                        className={`img-view-avatar`}
-                       alt={`Владислав Фатихов, веб-разработчик`}/>
+                       alt={`Владислав Фатихов, портфолио веб разработчика`}/>
 
             {statusVisible && (
                 <StatusBadge available={statusAvailable}
@@ -37,9 +37,9 @@ function NavHeader({ shrink }) {
             )}
 
             <div className={`info mt-3 text-center`}>
-                <h1 className={`name`}>
+                <div>
                    <span dangerouslySetInnerHTML={{__html:stylizedName}}/>
-                </h1>
+                </div>
 
                 <div className={`role`}>
                      <ImageView src={logoUrl}
