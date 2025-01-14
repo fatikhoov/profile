@@ -37,9 +37,9 @@ function NavHeader({ shrink }) {
             )}
 
             <div className={`info mt-3 text-center`}>
-                <h5 className={`name`}>
+                <h1 className={`name`}>
                    <span dangerouslySetInnerHTML={{__html:stylizedName}}/>
-                </h5>
+                </h1>
 
                 <div className={`role`}>
                      <ImageView src={logoUrl}
