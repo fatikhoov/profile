@@ -6,7 +6,7 @@
     "preloader": {
         "enabled": true,
         "title": "<b>Fatih Digital</b>",
-        "subtitle": "Добро пожаловать"
+        "subtitle": "Веб разработка"
     },
 
     "profile": {
@@ -16,7 +16,7 @@
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
         "locales": {
-            "ru": {"role": "веб разработка"},
+            "ru": {"role": "Добро пожаловать"},
             "es": {"role": "Desarrollador Web"}
         }
     },
