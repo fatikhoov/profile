@@ -98,9 +98,9 @@ $loader-background-color: #222;
     --theme-secondary-3: #576758;
     --theme-secondary-4: #5e6c5e;
    
-    --theme-soft: #eee; /* бордер круга отзывы */
-    --theme-soft-2: #bbb; /* фон карточки отзывы */
-    --theme-soft-3: #aaa; /* бордер круга увлечения */
+    --theme-soft: #f7f7f7; /* бордер круга отзывы */
+    --theme-soft-2: #dadada; /* фон карточки отзывы */
+    --theme-soft-3: #ddd; /* бордер круга увлечения */
    
     --theme-dark: #ccc; /* фон шкалы прогресса и текст табов блок портфолио */
     --theme-dark-opacity: #155f752a; /* граница круга под фото онлайна */
@@ -112,18 +112,18 @@ $loader-background-color: #222;
     --theme-highlight-3: #414141;
    
     --theme-bg: url('');
-    --theme-bg-color: rgba(217, 217, 217, 0.86); /* фон темы */ 
-    --theme-section-background: rgba(217, 217, 217, 0.86); /* фон childrens */ 
-    --theme-section-background-opacity: rgba(217, 217, 217, 0.86); /* фон childrens в мобилке */
-    --theme-tag-color: #eee; /* цвет тегов в карточках */
+    --theme-bg-color: #eee; /* фон темы */ 
+    --theme-section-background: #eee; /* фон childrens */ 
+    --theme-section-background-opacity: #eee; /* фон childrens в мобилке */
+    --theme-tag-color: #ddd; /* цвет тегов в карточках */
     --theme-box-shadow: none;
 
     --theme-nav-background: #ddd; /* фон карточки визитки */ 
-    --theme-nav-background-disabled: #ddd; /* фон мобильного меню bottom */
+    --theme-nav-background-disabled: #eee; /* фон мобильного меню bottom */
     --theme-nav-secondary: #000; /* цвет не выбранного пункта мобильного меню bottom */
     --theme-nav-light: #ccc; /* border мобильного меню bottom  */
     --theme-nav-highlight: #0891b2; /* цвет текста и иконки выбранного пункта мобильного меню bottom */
-    --theme-nav-selected: #eee; /* выбранный пункт мобильного меню bottom */
+    --theme-nav-selected: #dadada; /* выбранный пункт мобильного меню bottom */
 
     --theme-scrollbar-track: #ccc;
     --theme-scrollbar-thumb: #999;
