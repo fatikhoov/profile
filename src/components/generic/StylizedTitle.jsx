@@ -6,7 +6,7 @@ function StylizedTitle({text, classList}) {
 
     return (
         <div className={`stylized-title d-flex align-items-center fw-bold ` + classList}>
-            <span className={`text-highlight ${classes.lineTag} ms-1 me-2 pe-1`}>&gt;</span>
+            <span className={`text-highlight ${classes.lineTag} ms-1 me-2 pe-1`}>|</span>
             <HeadingTag className={`mb-0 fw-bold eq-h2`} dangerouslySetInnerHTML={{__html: text}}/>
         </div>
     )

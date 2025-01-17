@@ -64,9 +64,9 @@ $loader-background-color: #222;
     --theme-muted: #6c757d;
     --theme-white: #aaa; /* иконки в форме обратной связи */
    
-    --theme-bg: url('');
-    --theme-bg-color: #1C1C1C;
-    --theme-section-background: #1A1A1A;
+    --theme-bg: url('/images/css/bg-dark.gif');
+    --theme-bg-color: rgba(26, 26, 26, 0.86);
+    --theme-section-background: rgba(26, 26, 26, 0.86);
     --theme-section-background-opacity: rgba(26, 26, 26, 0.86);
     --theme-tag-color: #181818;
     --theme-box-shadow: none;
@@ -112,9 +112,9 @@ $loader-background-color: #222;
     --theme-highlight-3: #414141;
    
     --theme-bg: url('');
-    --theme-bg-color: #eee; /* фон темы */ 
-    --theme-section-background: #ddd; /* фон childrens */ 
-    --theme-section-background-opacity: #ddd; /* фон childrens в мобилке */
+    --theme-bg-color: rgba(217, 217, 217, 0.86); /* фон темы */ 
+    --theme-section-background: rgba(217, 217, 217, 0.86); /* фон childrens */ 
+    --theme-section-background-opacity: rgba(217, 217, 217, 0.86); /* фон childrens в мобилке */
     --theme-tag-color: #eee; /* цвет тегов в карточках */
     --theme-box-shadow: none;
 
@@ -133,13 +133,13 @@ $loader-background-color: #222;
 }
 
 .bg-dark {
-    background-image: url('/images/css/bg-dark.png');
+    background-image: url('/images/css/bg-dark.gif');
     background-size: cover;
     background-position: center;
 }
 
 .bg-white {
-    background-image: url('/images/css/bg-green.png');
+    background-image: url('');
     background-size: cover;
     background-position: center;
 }
