@@ -42,10 +42,10 @@ function NavHeader({ shrink }) {
                 </div>
 
                 <div className={`role`}>
-                     <ImageView src={logoUrl}
+                    {/*  <ImageView src={logoUrl}
                                alt={`logo`}
                                className={`img-view-logo me-1`}
-                               />
+                               /> */}
                     <span>{role}</span>
                 </div>
             </div>
