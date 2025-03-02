@@ -4,7 +4,7 @@
     "fullScreenButtonEnabled": true,
 
     "preloader": {
-        "enabled": true,
+        "enabled": false,
         "title": "<b>Набиева Адель</b>",
         "subtitle": "Персональный фитнес тренер"
     },
