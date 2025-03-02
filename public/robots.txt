@@ -1,4 +1,4 @@
 User-agent: 
 Crawl-delay: 1
-Host: https://fatih.digital/
-Sitemap: https://fatih.digital/sitemap.xml
+Host: https://nabieva-adel.ru/
+Sitemap: https://nabieva-adel.ru/sitemap.xml

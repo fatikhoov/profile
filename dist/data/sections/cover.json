@@ -3,8 +3,8 @@
         "ru": {
             "title": "Привет",
             "title_menu": "Обо мне",
-            "title_long_prefix": "<h1><strong>Владислав Фатихов </strong> <br>веб разработчик</h1>",
-            "title_long": "Я Владислав **Фатихов**"
+            "title_long_prefix": "<strong>Добро пожаловать</strong></h1>",
+            "title_long": "Я Набиева **Адель**"
         },
 
         "es": {
@@ -30,9 +30,9 @@
 
             "items": [
                 {
-                    "value": "@vladislav_fatikhov",
+                    "value": "@hi_iam_a_dancer9",
                     "links": [
-                        {"href": "https://t.me/vladislav_fatikhov"}
+                        {"href": "https://t.me/hi_iam_a_dancer9"}
                     ],
                     "icon": {
                         "img": null,
@@ -41,9 +41,9 @@
                     }
                 },
                 {
-                    "value": "mail@fatih.digital",
+                    "value": "info@nabieva-adel.ru",
                     "links": [
-                        {"href": "mailto:mail@fatih.digital"}
+                        {"href": "mailto:info@nabieva-adel.ru"}
                     ],
                     "icon": {
                         "img": null,
@@ -71,7 +71,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "ru": {"text": "<h3>Использую инновационные веб решения <br>для развития проектов и достижения бизнес-целей.</h3>"}
+                        "ru": {"text": "<h3>1,5 года в сфере фитнеса. 6 лет в сфере танцев</h3>"}
                     }
                 }
             ]
@@ -88,68 +88,34 @@
             "items": [
                 {
                     "dates": {
-                        "start": "от 5 дней",
+                        "start": "60 минут",
                         "end": null
                     },
                     "links": [
-                        { "string": "tolk_service", "href": "https://t.me/vladislav_fatikhov" }
+                        { "string": "tolk_service", "href": "https://t.me/hi_iam_a_dancer9" }
                     ],
                     "locales": {
                         "ru": {
-                            "title": "**Разработка сайтов** - под ключ",
-                            "info": "Поэтапно и прозрачно",
-                            "text": "Полный цикл: от идеи до запуска <br>Включает: дизайн, верстку, интеграцию с API и SEO настройку"
+                            "title": "**Персональная** фитнес тренировка",
+                            "info": "По предварительной записи",
+                            "text": "В тренажерном зале или на вашей територии"
                         }
                     }
                 },
                 
                 {
                     "dates": {
-                        "start": "Выше ранжирование",
-                        "end": "выше продажи"
-                    },
-                    "links": [
-                        { "string": "select_service", "href": "https://t.me/vladislav_fatikhov" }
-                    ],
-                    "locales": {
-                        "ru": {
-                            "title": "**SEO** оптимизация",
-                            "info": "Google, Yandex",
-                            "text": "Анализ сайта и внедрение улучшений: <br>скорость, структура, ключевые слова, подключение метрик"
-                        }
-                    }
-                },
-
-                {
-                    "dates": {
-                        "start": "до 20 ч. в мес.",
+                        "start": "Группа до 10 человек",
                         "end": null
                     },
                     "links": [
-                        { "string": "select_service", "href": "https://t.me/vladislav_fatikhov" }
+                        { "string": "select_service", "href": "https://t.me/hi_iam_a_dancer9" }
                     ],
                     "locales": {
                         "ru": {
-                            "title": "**Администрирование** и техническая поддержка",
-                            "info": null,
-                            "text": "Администрирование контента <br>Исправление ошибок <br>Проверка производительности"
-                        }
-                    }
-                },
-
-                {
-                    "dates": {
-                        "start": "1500 рублей",
-                        "end": "90 минут"
-                    },
-                    "links": [
-                        { "string": "select_service", "href": "https://t.me/vladislav_fatikhov" }
-                    ],
-                    "locales": {
-                        "ru": {
-                            "title": "**Обучение** сотрудников",
-                            "info": "-50% на 1 урок",
-                            "text": "Работа с CMS, основы в Figma<br>Редактировании контента<br>Обучение основам HTML, CSS, JavaScript"
+                            "title": "**Групповая** тренировка",
+                            "info": "Танцы, стретчинг",
+                            "text": "В тренажерном зале или на вашей територии"
                         }
                     }
                 }
@@ -169,9 +135,9 @@
 
             "items": [
                 {
-                    "value": "Отзывы с profi.ru",
+                    "value": "Отзывы Yandex",
                     "links": [
-                        {"href": "https://profi.ru/profile/FatihovVI/#reviews-tab"}
+                        {"href": ""}
                     ],
                     "icon": {
                         "img": "",
@@ -180,15 +146,15 @@
                     },
                     "locales": {
                         "ru": {
-                            "info": "<b>Персональное обучение</b> - Виктория",
-                            "text": "Мне очень понравилось, как Владислав преподает материал. Он объясняет все понятно и доходчиво, используя множество примеров и практических заданий. Кроме того, всегда готов ответить на вопросы и помочь в случае возникновения трудностей. Так же очень понравилось, что в обучение входит множество рекомендаций таких как : грамотно вести документацию, множество нюансов работы в excel , как правильно заполнить бриф с заказчиком и т.д. Индивидуальный подход: Преподаватель учитывает индивидуальные особенности и адаптирует свой подход под уровень знаний."}
+                            "info": "Иван Иванов",
+                            "text": "Мне очень понравилось"}
                     }
                 },
 
                 {
-                    "value": "carget.su",
+                    "value": "Отзывы WhatsApp",
                     "links": [
-                        {"href": "https://carget.su/"}
+                        {"href": ""}
                     ],
                     "icon": {
                         "img": "",
@@ -197,34 +163,12 @@
                     },
                     "locales": {
                         "ru": {
-                            "info": "<b>Разработка сайта</b> - авто из Китая и Европы",
-                            "text": "Владислав выполнил свою работу на отлично, справился со сроками и заданием разработки сайта с внедрением JAVASCRIPT! Будем дальше обращаться!"
+                            "info": "Группа по марафону на растяжку",
+                            "text": "Адель выполнил свою работу на отлично"
                         },
                         "es": {
                             "info": "Desarrollador Principal ru <b>GitHub </b>",
                             "text": "Tener a Mark ru nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
-                        }
-                    }
-                },
-
-                {
-                    "value": "supfamilysochi.ru",
-                    "links": [
-                        {"href": "https://supfamilysochi.ru/"}
-                    ],
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "ru": {
-                            "info": "<b>Разработка сайта</b> - семейная сапстанция",
-                            "text": "Хочу выразить огромную благодарность Владу и Эльмире за вашу работу! Лендинг, который вы сделали, просто спас нас перед стартом сезона. Сайт оказался успешным — много клиентов записываются на сапы."
-                        },
-                        "es": {
-                            "info": "Directora General ru <b>Dingga</b>",
-                            "text": "Colaborar con Mark fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
                         }
                     }
                 }

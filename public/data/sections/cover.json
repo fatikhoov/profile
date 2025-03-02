@@ -78,11 +78,136 @@
         },
         
         {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2018",
+                        "end": "12/03/2018"
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "**Инструктор** тренажерного зала",
+                            "info": "Школа фитнеса «Q-FIT» г. Уфа",
+                            "text": null,
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2024",
+                        "end": "12/01/2025"
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "**Персональный** фитнес тренер",
+                            "info": "Академия Бодибилдинга и фитнеса",
+                            "text": "Присвоена квалификация",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2024",
+                        "end": "12/01/2025"
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Тренер **групповых** программ",
+                            "info": "Академия Бодибилдинга и фитнеса",
+                            "text": "фитнес-йога, пилатес, классический стретчин",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2021",
+                        "end": "12/01/2022"
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "**Хореограф**",
+                            "info": "Школа танцев LADY BOMB",
+                            "text": "HIGH -HEELS, STRIP, JAZZ-FUNK",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2022",
+                        "end": "12/01/2023"
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "**Хореограф**",
+                            "info": "Школа танцев STAR DANCE CAMP",
+                            "text": "HIGH -HEELS, STRIP, JAZZ-FUNK, DANCEHALL",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2019",
+                        "end": "12/02/2019"
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "**Педагог**",
+                            "info": "АНО ДПО «Академия развития образования» г. Уфа",
+                            "text": null,
+                            "tags": []
+                        }
+                    }
+                }
+
+            ]
+        },
+
+        {
             "id": "awards",
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "ru": { "title": "**Мои услуги**" }
+                "ru": { "title": "Мои **тренировки**" }
             },
 
             "items": [
@@ -96,7 +221,7 @@
                     ],
                     "locales": {
                         "ru": {
-                            "title": "**Персональная** фитнес тренировка",
+                            "title": "**Персональная** тренировка",
                             "info": "По предварительной записи",
                             "text": "В тренажерном зале или на вашей територии"
                         }
@@ -164,7 +289,7 @@
                     "locales": {
                         "ru": {
                             "info": "Группа по марафону на растяжку",
-                            "text": "Адель выполнил свою работу на отлично"
+                            "text": "Адель выполнила свою работу на отлично"
                         },
                         "es": {
                             "info": "Desarrollador Principal ru <b>GitHub </b>",

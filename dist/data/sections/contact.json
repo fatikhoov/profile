@@ -2,7 +2,7 @@
     "locales": {
         "ru": {
             "title": "Контакты",
-            "title_long_prefix": "Обсудим проект?",
+            "title_long_prefix": "Обсудим детали?",
             "title_long": "**Связаться** со мной"
         },
 
@@ -39,9 +39,9 @@
 
             "items": [
                 {
-                    "value": "+7 (999) 130-3619",
+                    "value": "+7 (989) 591-9975",
                     "links": [
-                        {"href": "tel:79991303619"}
+                        {"href": "tel:79895919975"}
                     ],
                     "icon": {
                         "img": null,
@@ -55,9 +55,9 @@
                 },
 
                 {
-                    "value": "mail@fatih.digital",
+                    "value": "info@nabieva-adel.ru",
                     "links": [
-                        {"href": "mailto:mail@fatih.digital"}
+                        {"href": "mailto:info@nabieva-adel.ru"}
                     ],
                     "icon": {
                         "img": null,
@@ -71,9 +71,9 @@
                 },
 
                 {
-                    "value": "@vladislav_fatikhov",
+                    "value": "@@hi_iam_a_dancer9",
                     "links": [
-                        {"href": "https://t.me/vladislav_fatikhov"}
+                        {"href": "https://t.me/@hi_iam_a_dancer9"}
                     ],
                     "icon": {
                         "img": null,
